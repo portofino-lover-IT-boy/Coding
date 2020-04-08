@@ -1,0 +1,27 @@
+2020-04-08 00:20:47.205 [main] INFO  com.ranjit.o2o.O2oApplication - Starting O2oApplication on PC_201610141411 with PID 6740 (D:\IDEA envirment\o2o\target\classes started by Administrator in D:\IDEA envirment\o2o)
+2020-04-08 00:20:47.239 [main] INFO  com.ranjit.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2020-04-08 00:20:51.907 [main] INFO  com.ranjit.o2o.O2oApplication - Started O2oApplication in 5.968 seconds (JVM running for 7.866)
+2020-04-08 00:58:29.003 [main] INFO  com.ranjit.o2o.O2oApplication - Starting O2oApplication on PC_201610141411 with PID 5464 (D:\IDEA envirment\o2o\target\classes started by Administrator in D:\IDEA envirment\o2o)
+2020-04-08 00:58:29.010 [main] INFO  com.ranjit.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2020-04-08 00:58:32.389 [main] INFO  com.ranjit.o2o.O2oApplication - Started O2oApplication in 4.008 seconds (JVM running for 6.101)
+2020-04-08 01:00:38.829 [main] INFO  com.ranjit.o2o.O2oApplication - Starting O2oApplication on PC_201610141411 with PID 6296 (D:\IDEA envirment\o2o\target\classes started by Administrator in D:\IDEA envirment\o2o)
+2020-04-08 01:00:38.833 [main] INFO  com.ranjit.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2020-04-08 01:00:41.560 [main] INFO  com.ranjit.o2o.O2oApplication - Started O2oApplication in 3.212 seconds (JVM running for 4.314)
+2020-04-08 01:16:14.092 [main] INFO  com.ranjit.o2o.dao.AreaDaoTest - Starting AreaDaoTest on PC_201610141411 with PID 2856 (started by Administrator in D:\IDEA envirment\o2o)
+2020-04-08 01:16:14.093 [main] INFO  com.ranjit.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
+2020-04-08 01:16:17.854 [main] INFO  com.ranjit.o2o.dao.AreaDaoTest - Started AreaDaoTest in 4.128 seconds (JVM running for 5.585)
+2020-04-08 01:40:27.035 [main] INFO  com.ranjit.o2o.O2oApplication - Starting O2oApplication on PC_201610141411 with PID 7492 (D:\IDEA envirment\o2o\target\classes started by Administrator in D:\IDEA envirment\o2o)
+2020-04-08 01:40:27.046 [main] INFO  com.ranjit.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2020-04-08 01:40:30.448 [main] INFO  com.ranjit.o2o.O2oApplication - Started O2oApplication in 3.922 seconds (JVM running for 5.342)
+2020-04-08 02:10:15.374 [main] INFO  com.ranjit.o2o.O2oApplication - Starting O2oApplication on PC_201610141411 with PID 7316 (D:\IDEA envirment\o2o\target\classes started by Administrator in D:\IDEA envirment\o2o)
+2020-04-08 02:10:15.378 [main] INFO  com.ranjit.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2020-04-08 02:10:19.120 [main] INFO  com.ranjit.o2o.O2oApplication - Started O2oApplication in 4.383 seconds (JVM running for 6.291)
+2020-04-08 02:15:53.243 [main] INFO  com.ranjit.o2o.O2oApplication - Starting O2oApplication on PC_201610141411 with PID 8348 (D:\IDEA envirment\o2o\target\classes started by Administrator in D:\IDEA envirment\o2o)
+2020-04-08 02:15:53.247 [main] INFO  com.ranjit.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2020-04-08 02:15:56.858 [main] INFO  com.ranjit.o2o.O2oApplication - Started O2oApplication in 4.25 seconds (JVM running for 6.123)
+2020-04-08 02:45:15.670 [main] INFO  com.ranjit.o2o.O2oApplication - Starting O2oApplication on PC_201610141411 with PID 8364 (D:\IDEA envirment\o2o\target\classes started by Administrator in D:\IDEA envirment\o2o)
+2020-04-08 02:45:15.677 [main] INFO  com.ranjit.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2020-04-08 02:45:19.354 [main] INFO  com.ranjit.o2o.O2oApplication - Started O2oApplication in 4.468 seconds (JVM running for 6.519)
+2020-04-08 15:32:37.640 [main] INFO  com.ranjit.o2o.dao.AreaDaoTest - Starting AreaDaoTest on PC_201610141411 with PID 8360 (started by Administrator in D:\IDEA envirment\o2o)
+2020-04-08 15:32:37.643 [main] INFO  com.ranjit.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
+2020-04-08 15:32:41.786 [main] INFO  com.ranjit.o2o.dao.AreaDaoTest - Started AreaDaoTest in 4.574 seconds (JVM running for 6.163)

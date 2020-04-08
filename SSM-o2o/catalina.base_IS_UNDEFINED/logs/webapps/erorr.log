@@ -1,0 +1,4 @@
+2019-09-22 13:05:31.343 [main] ERROR com.ranjit.o2o.util.ImageUtil - java.io.FileNotFoundException: D:\o2o\image\upload\item\shop\45\2019092213053179336.jpg (系统找不到指定的路径。)
+2019-09-22 13:23:06.688 [main] ERROR com.ranjit.o2o.util.ImageUtil - java.io.FileNotFoundException: D:\o2o\image\upload\item\shop\46\2019092213230696326.jpg (系统找不到指定的路径。)
+2019-09-22 13:24:19.101 [main] ERROR com.ranjit.o2o.util.ImageUtil - java.io.FileNotFoundException: D:\o2o\image\upload\item\shop\47\2019092213241898920.jpg (系统找不到指定的路径。)
+2019-09-22 13:31:35.203 [main] ERROR com.ranjit.o2o.util.ImageUtil - java.io.FileNotFoundException: D:\o2o\image\upload\item\shop\48\2019092213313484637.jpg (系统找不到指定的路径。)

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ranjit.o2o.dao.WechatAuthDao">
+	<resultMap id="wechatAuthResultMap" type="com.ranjit.o2o.entity.WechatAuth">
+		<id column="wechatAuthId" property="wechatAuthId" />
+		<result column="openId" property="openId" />
+		<result column="createTime" property="createTime" />
+		<association property="personInfo" column="userId"
+			javaType="com.ranjit.o2o.entity.PersonInfo">
+			<id column="userId" property="userId" />
+			<result column="name" property="name" />
+			<result column="gender" property="gender" />
+			<result column="email" property="email" />
+			<result column="profileImg" property="profileImg" />
+			<result column="userType" property="userType" />
+			<result column="createTime" property="createTime" />
+			<result column="lastEditTime" property="lastEditTime" />
+			<result column="enableStatus" property="enableStatus" />
+		</association>
+	</resultMap>
+	<select id="queryWechatInfoByOpenId" resultMap="wechatAuthResultMap"
+		parameterType="String">
+		SELECT
+		w.wechatAuthId,
+		w.openId,
+		w.createTime,
+		p.userId,
+		p.name,
+		p.gender,
+		p.email,
+		p.profileImg,
+		p.userType,
+		p.createTime,
+		p.lastEditTime,
+		p.enableStatus
+		FROM
+		tb_wechat_auth w
+		LEFT JOIN
+		tb_person_info
+		p ON w.userId =
+		p.userId
+		WHERE
+		w.openId =
+		#{openId}
+	</select>
+	<insert id="insertWechatAuth" parameterType="com.ranjit.o2o.entity.WechatAuth"
+		useGeneratedKeys="true" keyProperty="wechatAuthId" keyColumn="wechatAuthId">
+		INSERT
+		INTO
+		tb_wechat_auth(userId,openId,createTime)
+		VALUES
+		(#{personInfo.userId},#{openId},#{createTime})
+	</insert>
+</mapper>

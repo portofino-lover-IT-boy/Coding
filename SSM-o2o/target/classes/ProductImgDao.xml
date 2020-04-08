@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ranjit.o2o.dao.ProductImgDao">
+	<select id="queryProductImgList" resultType="com.ranjit.o2o.entity.ProductImg">
+		SELECT
+		productImgId,
+		imgAddr,
+		imgDesc,
+		priority,
+		createTime,
+		productId
+		FROM tb_product_img
+		WHERE productId=#{productId}
+		ORDER BY
+		productImgId ASC
+	</select>
+	<insert id="batchInsertProductImg" parameterType="java.util.List">	
+		INSERT INTO
+		tb_product_img(imgAddr,imgDesc,priority,
+		createTime,productId)
+		VALUES
+		<foreach collection="list" item="productImg" index="index"
+			separator=",">
+			(
+			#{productImg.imgAddr},
+			#{productImg.imgDesc},
+			#{productImg.priority},
+			#{productImg.createTime},
+			#{productImg.productId}
+			)
+		</foreach>
+	</insert>
+
+	<delete id="deleteProductImgByProductId">
+		<!-- 具体的sql -->
+		DELETE FROM
+		tb_product_img
+		WHERE
+		productId =
+		#{productId}
+	</delete>
+
+</mapper>

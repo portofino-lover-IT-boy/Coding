@@ -1,0 +1,9 @@
+2020-04-01 21:08:05.327 [main] DEBUG com.ranjit.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT areaId, areaName, priority, createTime, lastEditTime FROM tb_area ORDER BY priority DESC 
+2020-04-01 21:08:05.364 [main] DEBUG com.ranjit.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2020-04-01 21:08:05.414 [main] DEBUG com.ranjit.o2o.dao.AreaDao.queryArea - <==      Total: 3
+2020-04-01 21:13:19.686 [main] DEBUG com.ranjit.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT areaId, areaName, priority, createTime, lastEditTime FROM tb_area ORDER BY priority DESC 
+2020-04-01 21:13:19.710 [main] DEBUG com.ranjit.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2020-04-01 21:13:19.757 [main] DEBUG com.ranjit.o2o.dao.AreaDao.queryArea - <==      Total: 3
+2020-04-01 21:21:32.012 [main] DEBUG com.ranjit.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT areaId, areaName, priority, createTime, lastEditTime FROM tb_area ORDER BY priority DESC 
+2020-04-01 21:21:32.036 [main] DEBUG com.ranjit.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2020-04-01 21:21:32.088 [main] DEBUG com.ranjit.o2o.dao.AreaDao.queryArea - <==      Total: 3
